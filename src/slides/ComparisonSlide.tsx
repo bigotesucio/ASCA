@@ -1,3 +1,4 @@
+
 import React from 'react';
 import SlideWrapper from './SlideWrapper';
 import { COMPARISON_DATA } from '../constants';
@@ -21,7 +22,7 @@ const ComparisonSlide: React.FC = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {COMPARISON_DATA.map((item, index) => (
+                    {COMPARISON_DATA.map((item) => (
                         <tr key={item.element} className="border-b border-white/20 text-sm">
                             <td className="p-3 md:p-4 font-bold align-top text-white">
                                 {item.element}

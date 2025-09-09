@@ -1,3 +1,4 @@
+
 import React from 'react';
 import SlideWrapper from './SlideWrapper';
 import { OUR_ROLE_DATA } from '../constants';
@@ -28,7 +29,7 @@ const OurRoleSlide: React.FC = () => {
                 </p>
             </div>
             <div className="space-y-8">
-                {OUR_ROLE_DATA.map((role, index) => (
+                {OUR_ROLE_DATA.map((role) => (
                     <div key={role.title} className="border-t border-white/20 pt-6">
                         <div className="flex items-start gap-4">
                             <div className="mt-1">

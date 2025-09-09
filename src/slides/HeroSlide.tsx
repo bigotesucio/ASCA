@@ -1,3 +1,4 @@
+
 import React from 'react';
 import SlideWrapper from './SlideWrapper';
 import { HERO_DATA } from '../constants';

@@ -1,3 +1,4 @@
+
 import React, { useMemo } from 'react';
 import SlideWrapper from './SlideWrapper';
 import { PRODUCT_DETAILS_DATA } from '../constants';
@@ -11,8 +12,6 @@ const DetailsSlide: React.FC<ProductDetailsSlideProps> = ({ category }) => {
   const filteredProducts = useMemo(() => {
     return PRODUCT_DETAILS_DATA.filter(p => p.category === category);
   }, [category]);
-  
-  const categoryTitle = category.replace(/([A-Z])/g, ' $1').replace('Regalos&Family', 'Lifestyle').trim();
 
   return (
     <SlideWrapper theme="light" className="items-start">

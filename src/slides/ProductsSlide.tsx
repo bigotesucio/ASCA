@@ -1,3 +1,4 @@
+
 import React from 'react';
 import SlideWrapper from './SlideWrapper';
 import { PRODUCT_CATEGORIES_DATA } from '../constants';

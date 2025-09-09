@@ -1,3 +1,4 @@
+
 import React from 'react';
 import HeroSlide from './slides/HeroSlide';
 import IntroSlide from './slides/IntroSlide';
@@ -9,6 +10,7 @@ import TimelineSlide from './slides/TimelineSlide';
 import NextStepsSlide from './slides/NextStepsSlide';
 import ThankYouSlide from './slides/ThankYouSlide';
 import DetailsSlide from './slides/DetailsSlide';
+import MoodboardSlide from './slides/MoodboardSlide';
 
 const App: React.FC = () => {
     return (

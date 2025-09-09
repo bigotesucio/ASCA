@@ -1,3 +1,4 @@
+
 import type { ProductLine, Role, ComparisonElement, ProductCategory, ProductDetail, TimelinePhase, ProposalQuestion } from './types';
 
 export const HERO_DATA = {
